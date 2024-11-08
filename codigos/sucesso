@@ -1,0 +1,26 @@
+
+int main() {
+    int contador = 0;
+
+    for (int i = 0; i < 10; ++i) {
+        contador += 1;
+    }
+
+    bool iseven;
+    if (contador % 2 == 0) {
+        iseven = true;
+    }else{
+        iseven = false;
+    }
+
+    double resultadodivisao = contador / 3.0;
+
+    bool divididoehpar;
+    if (resultadodivisao % 2 == 0) {
+        divididoehpar = true;
+    }else{
+        divididoehpar = false;
+    }
+
+    return 0;
+}
